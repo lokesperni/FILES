@@ -10,4 +10,5 @@ var imageSchema = new mongoose.Schema({
         required : true
     }
 })
+
 module.exports = mongoose.model("images",imageSchema) 
